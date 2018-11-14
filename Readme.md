@@ -1,7 +1,7 @@
-#	This repository is my portfolio page.
+#	はしだいのProfile Page
 
-I work at Security vendor in Tokyo.
-I'm a Forensic Engineer.
-Sometimes I sold some Forensic Tools.
+東京のSIerのセキュリティの部署で働いています。
+Forensic Engineerをしています。
 
 If you are interested, please contact to me!!!
+

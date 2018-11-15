@@ -1,6 +1,17 @@
 @charset "UTF-8"
-.main {
-	font-family: "Montserrat", sans-serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+</style>
+
+body {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	padding: 0 1em;
+	text-align:center
 }
+
+main {
+	text-align:center
+}
+
+

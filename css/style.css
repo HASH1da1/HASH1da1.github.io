@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 </style>
 
-body,head {
+body,h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	padding: 0 1em;

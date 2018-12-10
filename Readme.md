@@ -4,5 +4,8 @@
 Forensic Engineerをしています。
 最近はフロントエンドの技術に興味があります。
 
-If you are interested, please contact to me!!!
+
+
+絶賛求職中です。フォレンジックエンジニアを雇いたいユーザ企業さん。<br>
+ぜひ僕を雇ってください。<br>
 

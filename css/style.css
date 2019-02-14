@@ -2,10 +2,9 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 </style>
-h1{
-	border-bottom: solid 3px black;
-	text-align:center;
+
 }
+
 
 
 body {
@@ -15,8 +14,67 @@ body {
 	text-align:center;
 }
 
-main {
+
+.about-me{
+
+}
+h1{
+	border-bottom: solid 3px black;
 	text-align:center;
 }
+img{
+
+	width:100%;
+	max-width: 100%;
+	height: auto;
+	align-content: center;
+	
+}
+
+.hobby{
+
+}
+h2{
+	border-bottom: solid 3px black;
+	text-align:center;
+}
+
+
+
+.security{
+
+}
+h2{
+	border-bottom: solid 3px black;
+	text-align:center;
+}
+
+
+.study{
+
+}
+h2{
+	border-bottom: solid 3px black;
+	text-align:center;
+}
+
+
+
+.social {
+}
+h2{
+	border-bottom: solid 3px black;
+	text-align:center;
+}
+p{
+	text-align: center;
+}
+.social-icon img{
+		width:30%;
+		max-width: 30%;
+		height: 30%;
+		}
+
+	}
 
 

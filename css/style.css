@@ -1,42 +1,83 @@
 @charset "UTF-8"
-<style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
-</style>
 
-}
-
-
-
-body {
+html{
+	height: 100%;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	padding: 0 1em;
-	text-align:center;
 }
 
 
-.about-me h1{
-	border-bottom: solid 3px black;
-	text-align:center;
-}
-.about-me img{
 
-	width:100%;
-	max-width: 100%;
+
+
+/*---menu bar---*/
+ul.topnav{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+}
+ul.topnav li{
+	float: left;
+}
+ul.topnav li a{
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+ul.topnav li a:hover:not(.active){
+	background-color: #a9bce2;
+}
+ul.topnav li a.active{
+	background-color: #f442b3;
+}
+ul.topnav li.right{
+	float: right;
+}
+@media screen and (max-width:768px){
+	ul.topnav li.right, ul.topnav li{
+		float: none;
+	}
+}
+/*---About-me---*/
+.about-me {
+	background-color: #191919;
+	border-bottom: solid 3px;
+	color: #ffffff;
+	text-align:center;
+	align-items: left;
+}
+
+.about-img{
+	float:left;
+	margin-right:10px;
+	width:auto;
+	max-width: auto;
+	height: auto;
+	align-items: left;
+	}
+.p1{
+	text-align: justify;
+}
+
+@media screen (max-width:768px){
+	max-width: 50%;
 	height: auto;
 	align-content: center;
-	
 }
 
 
 .hobby h2{
 	border-bottom: solid 3px black;
-	text-align:center;
+	text-align:left;
 
 }
 
 
-.security h2{
+.skill h2{
 	border-bottom: solid 3px black;
 	text-align:center;
 }

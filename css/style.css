@@ -32,7 +32,7 @@ ul.topnav li a:hover:not(.active){
 	background-color: #a9bce2;
 }
 ul.topnav li a.active{
-	background-color: #f442b3;
+	background-color: #2f69fc;
 }
 ul.topnav li.right{
 	float: right;
@@ -66,28 +66,25 @@ ul.topnav li.right{
 	max-width: 50%;
 	max-height: 50%;
 	.about-image{
-		margin: 0 auto;
+		padding: 25px 30px 25px;
 		text-align: center;
 	}
-}
 
 
-.hobby h2{
-	border-bottom: solid 3px black;
+
+div.hobby{
 	text-align:left;
 
 }
 
 
-.skill h2{
-	border-bottom: solid 3px black;
+div.skill{
 	text-align:center;
 }
 
 
 
-.social h2{
-	border-bottom: solid 3px black;
+div.social{
 	text-align:center;
 }
 
@@ -100,7 +97,7 @@ ul.topnav li.right{
 
 
 
-.social {
+div.social {
 	margin: 0 auto;
 	display: flex;
 }
@@ -108,7 +105,7 @@ ul.topnav li.right{
 .p3{
 	text-align: center;
 }
-.social-icon {
+div.social-icon {
 		display: flex;
 		width:30%;
 		max-width: auto;

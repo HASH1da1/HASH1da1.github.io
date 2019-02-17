@@ -51,7 +51,7 @@ ul.topnav li.right{
 	align-content: center;
 }
 
-.about-image{
+img.about-image{
 	margin: 0 auto;
 	margin-right:10px;
 	width:auto;
@@ -62,10 +62,12 @@ ul.topnav li.right{
 	text-align: justify;
 }
 /* Responsive*/
-@media screen (max-width:768px){
+@media screen (max-width:499px){
 	max-width: 50%;
 	max-height: 50%;
 	.about-image{
+		max-width: 30%;
+		max-height: 30%;
 		padding: 25px 30px 25px;
 		text-align: center;
 	}
@@ -105,17 +107,18 @@ div.social {
 .p3{
 	text-align: center;
 }
-div.social-icon {
-		display: flex;
-		width:30%;
+.social-icon {
+		
+		width:auto;
 		max-width: auto;
-		height: 30%;
+		height: auto;
+		text-align: center;
 		}
 
 	
-footer{
+.footer{
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 

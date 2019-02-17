@@ -48,25 +48,27 @@ ul.topnav li.right{
 	border-bottom: solid 3px;
 	color: #ffffff;
 	text-align:center;
-	align-items: left;
+	align-content: center;
 }
 
-.about-img{
-	float:left;
+.about-image{
+	margin: 0 auto;
 	margin-right:10px;
 	width:auto;
 	max-width: auto;
 	height: auto;
-	align-items: left;
 	}
 .p1{
 	text-align: justify;
 }
-
+/* Responsive*/
 @media screen (max-width:768px){
 	max-width: 50%;
-	height: auto;
-	align-content: center;
+	max-height: 50%;
+	.about-image{
+		margin: 0 auto;
+		text-align: center;
+	}
 }
 
 
@@ -90,21 +92,27 @@ ul.topnav li.right{
 }
 
 
-p{
+.p2{
 	text-align: center;
 }
 
 
-.social-icon a{
+
+
+
+.social {
 	margin: 0 auto;
-	text-align: center;
+	display: flex;
 }
 
-.social-icon img{
+.p3{
+	text-align: center;
+}
+.social-icon {
+		display: flex;
 		width:30%;
-		max-width: 30%;
+		max-width: auto;
 		height: 30%;
-		content-align: center;		
 		}
 
 	

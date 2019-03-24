@@ -110,7 +110,7 @@ body{
 }
 
 .socail-wrapper{
-    display: table;
+    display: inline-flexbox;
     width: 100%;
     margin-top: 60px;
     table-layout: fixed;
@@ -118,7 +118,8 @@ body{
 
 .social-box{
     position: relative;
-    display: table-cell;
+    display: inline-block
+;
 }
 .social-box::after{
     content: '';

@@ -157,14 +157,18 @@ body{
     display: inline-block
 ;
 }
+
 .product-box::after{
     content: '';
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 0;
     width: 100%;
     height: 50%;
 }
+
+
+
 
 .product-image{
     padding: 0 100px 30px;
@@ -177,6 +181,7 @@ body{
     line-height: 2.5;
     font-size: 16px;
     color: #333;
+    position: relative;
 }
 
 .skills{

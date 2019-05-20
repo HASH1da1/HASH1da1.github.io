@@ -54,8 +54,8 @@ body{
     width: 200px;
     padding: 20px;
     border-radius: 4px;
-    background-color: #c91c73;
-    color: #fff;
+    background-color: #93deff;
+    color: #000;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 1.2rem;
@@ -65,7 +65,7 @@ body{
 }
 
 .button-showy{
-    background-color: #7000f1;
+    background-color: #c91c73;
 }
 .buttons .button{
     margin: 10px;
@@ -139,6 +139,43 @@ body{
 .social-text{
     font-size: 16px;
 }
+.product{
+    background-color: #fff;
+    padding: 80px 0;
+    color: #333;
+}
+
+.product-wrapper{
+    display: inline-flexbox;
+    width: 100%;
+    margin-top: 60px;
+    table-layout: fixed;
+}
+
+.product-box{
+    position: relative;
+    display: inline-block
+;
+}
+.product-box::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.product-image{
+    padding: 0 100px 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.product-text{
+    font-size: 16px;
+    color: #333;
+}
 
 .skills{
     padding: 80px 0;
@@ -211,6 +248,11 @@ body{
     }
     .socail-wrapper,
     .social-box{
+        display: block;
+        width: 100%
+    }
+    .product-wrapper,
+    .product-box{
         display: block;
         width: 100%
     }

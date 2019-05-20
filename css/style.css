@@ -173,6 +173,8 @@ body{
 }
 
 .product-text{
+    margin: 30px 0;
+    line-height: 2.5;
     font-size: 16px;
     color: #333;
 }

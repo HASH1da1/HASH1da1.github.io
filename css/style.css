@@ -186,8 +186,8 @@ body{
 
 .skills{
     padding: 80px 0;
-    background-color: #fff;
-    color: #333;
+    background-color: #333;
+    color: #fff;
 }
 
 .skills-wrapper{
@@ -212,8 +212,8 @@ body{
 
 .comment{
     padding: 30px 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     font-size: 1.8rem;
 }
 

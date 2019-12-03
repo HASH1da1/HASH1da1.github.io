@@ -154,7 +154,7 @@ body{
 
 .product-box{
     position: relative;
-    display: inline-block
+    display: inline-block;
 ;
 }
 
@@ -167,12 +167,9 @@ body{
     height: 50%;
 }
 
-
-
-
 .product-image{
     padding: 0 30px 0;
-    display: inline-block;
+    display: inline-flex;
     width: 300px;
     height: 300px;
 }

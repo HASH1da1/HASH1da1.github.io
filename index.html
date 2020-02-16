@@ -1,218 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway">
-    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HASH1da1</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script type="text/javascript" src="js/handler.js"></script>
 </head>
-
 <body>
-    <header class="header">
-        <p class="site-title-sub">My name is </p>
-        <h1 class="site-title">HASH1da1</h1>
-        <div class="buttons">
-            <a class="button" href="#about">About me</a>
-            <a class="button" href="#social">Social</a>
-            <a class="button" href="#product">Product</a>
-            <a class="button" href="#skills">Skill</a>
-        </div>
-    </header>
-    <section class="about" id="about">
-        <h2 class="heading">About me</h2>
-        <img class="icon" src="./images/profile.png">
-        <p class="about-text">
-            HASH1da1です。[はしだい]と読みます。<br>
-            2019年8月からCSIRTの人になりました。<br>
-            セキュリティなんでもやる人になりました（やれるとは言ってない）<br>
-        </p>
-        <p class="about-text">
-            ThinkPadが好きです。(使ってるのはMacBookだけど)<br>
-            他にはお酒、自作PC、ギターが好きです。<br>
-            よく飲みすぎて吐くので、リバースエンジニアリングしてます（違う）<br>
-            <br>
-            最近CTFに興味が出てきたのでハリネズミ本買いました。<br>
-            picoCTFあたりの比較的易しいものからやっていきをしていきたい。<br>
-        </p>
-    </section>
-
-    <section class="social" id="social">
-        <h2 class="heading">Social</h2>
-        <div class="social-wrapper">
-
-            <!--blog-->
-            <div class="social-box">
-                <a href="https://hash1da1.hatenablog.com/" target="_blank" rel="noopener noreferrer">
-                    <svg class="social-image" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px"
-                        viewBox="0 0 512 512" style="width: 256px; height: 256px; opacity: 1;" xml:space="preserve">
-
-                        <g>
-                            <path class="st0" fill="#ffffff"
-                                d="M384.164,290.844c9.641-13.688,12.75-30.953,8.469-47.141l-43.734-135.516H163.117l-43.75,135.516
-                                    c-4.281,16.188-1.172,33.453,8.469,47.141l104.609,148.344v23.688c-6.359,5.031-10.422,12.813-10.422,21.563
-                                    c0,15.219,12.328,27.563,27.563,27.563v-48.844v-6.281V264.266c-10.375-2.828-18-12.297-18-23.563
-                                    c0-13.484,10.922-24.422,24.422-24.422c13.484,0,24.422,10.938,24.422,24.422c0,11.266-7.641,20.734-18,23.547v192.625v6.281V512
-                                    c15.219,0,27.563-12.344,27.563-27.563c0-8.75-4.078-16.531-10.438-21.563v-23.688L384.164,290.844z"></path>
-                            <rect class="st0" fill="#ffffff" x="157.086" class="st0" width="197.844" height="88.047">
-                            </rect>
-                        </g>
-                    </svg>
-                </a>
-                <p class="social-text">
-                    ブログです。技術、日常問わず、<br>
-                    気が向いたときに更新してます。<br>
-                </p>
-            </div>
-
-            <!--twitter-->
-            <div class="social-box">
-                <a href="https://twitter.com/HASH1da1?lang=ja" target="_blank" rel="noopener noreferrer">
-                    <svg class="social-image" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400"
-                        style="enable-background:new 0 0 400 400;" xml:space="preserve">
-                        <g id="Dark_Blue">
-                            <circle class="st0" fill="#ffffff" cx="200" cy="200" r="200" />
-                        </g>
-                        <g id="Logo__x2014__FIXED">
-                            <path class="st1" fill="#333" d="M163.4,305.5c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25
-		c-8.6,3.8-17.9,6.4-27.7,7.6c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2
-		c-26.6,0-48.2,21.6-48.2,48.2c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2
-		c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7
-		c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7
-		C110.8,297.5,136.2,305.5,163.4,305.5" />
-                        </g>
-                    </svg>
-
-                </a>
-                <p class="social-text">
-                    私のTwitterアカウントです。<br>
-                    気軽にリプとかDMしてください。<br>
-                </p>
-            </div>
-            <!--mail-->
-            <div class="social-box">
-                <a href="mailto:d4y3re4k@gmail.com">
-                    <svg version="1.1"  xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px"
-                        viewBox="0 0 512 512" style="width: 256px; height: 256px; opacity: 1;" xml:space="preserve">
-                        <g class="social-image">
-                            <path fill="#FFFFFF" d="M496.563,68.828H15.438C6.922,68.828,0,75.75,0,84.281v30.391l256,171.547l256-171.563V84.281
-                                C512,75.75,505.078,68.828,496.563,68.828z"></path>
-                            <path fill="#ffffff" d="M0,178.016v203.391c0,34.125,27.641,61.766,61.781,61.766h388.438c34.141,0,61.781-27.641,61.781-61.766V178
-                                L256,349.563L0,178.016z"></path>
-                        </g>
-                    </svg>
-
-                </a>
-                <p class="social-text">
-                    メールアドレスです。<br>
-                    何かあればこちらに<br>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="product" id="product">
-        <h2 class="heading">Product</h2>
-        <div class="product-wrapper">
-            <div class="product-box">
-                <a href="https://addons.mozilla.org/ja/firefox/addon/gotanda/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img class="product-image" src="images/gotanda.svg" alt="product1">
-                </a>
-                <p class="product-text">
-                    GotandaというFirefox/Chrome向けのアドオンです。<br>
-                    画像クリックでプロダクトページに飛びます。<br>
-                    IOCを右クリックすると自動的に整形してShodanとかに投げれます。<br>
-                    このアドオンについての<a href="https://hash1da1.hatenablog.com/entry/20190516/1558011448"
-                        target="_blank">ブログ記事です</a><br>
-                    <a href="https://addons.mozilla.org/ja/firefox/addon/gotanda/">Firefox</a> /
-                    <a href="https://chrome.google.com/webstore/detail/gotanda/jbmdcdfnnpenkgliplbglfpninigbiml?hl=ja">Chrome</a>
-                </p>
-            </div>
-            <div class="product-box">
-                    <a href="https://addons.mozilla.org/ja/firefox/addon/icollet/" target="_blank"
-                        rel="noopener noreferrer">
-                        <img class="product-image" src="images/icollet.svg" alt="product2">
-                    </a>
-                    <p class="product-text">
-                        IcolletというFirefox向けのアドオンです。<br>
-                        画像クリックでプロダクトページに飛びます。<br>
-                        仮想通貨のウォレットアドレスとトランザクションハッシュを<br>
-                        右クリックすると、検索エンジンに投げれます。<br>
-                        いずれGotandaにmergeすると思われ<br>
-                    </p>
-                </div>
-        </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <h2 class="heading">Skills</h2>
-        <div class="skills-wrapper">
-            <div class="skill-box">
-                <div class="skill-title">Security</div>
-                <p class="skill-text">
-                    <p1>・Forensic<br></p1>
-                    <p2>
-                        -Disk forensic<br>
-                        -Memory Forensic<br>
-                        -Network Forensic<br>
-                    </p2>
-                    <br>
-                    <p1>・Other<br></p1>
-                    <p2>
-                        -Vulnerability watch<br>
-                        -Log analysis<br>
-                        -Offensive Security<br>
-                        -OSINT(hobby)<br>
-                    </p2>
-                </p>
-            </div>
-            <div class="skill-box">
-                <div class="skill-title">Hardware, OS</div>
-                <p class="skill-text">
-                    <p1>・Hardware<br></p1>
-                    <p2>
-                        -PC Building<br>
-                        -PC modified<br>
-                    </p2>
-                    <br>
-                    <p1>・OS<br></p1>
-                    <p2>
-                        -Windows<br>
-                        -mac os X<br>
-                        -Debian Distro(Lubuntu)<br>
-                    </p2>
-                </p>
-            </div>
-            <div class="skill-box">
-                <div class="skill-title">Study, Books</div>
-                <p class="skill-text">
-                    <p1>・Study<br></p1>
-                    <p2>
-                        -Web Frontend<br>
-                        -Web Backend<br>
-                        -OSINT<br>
-                    </p2>
-                    <br>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="comment">
-        <p3>Please hiring me!<br>
-            Contact me If you ineterested!<br></p3>
-
-
-    </section>
-    <footer class="footer">
-        Copyright @HASH1da1
-    </footer>
+    <h1>HASH1da1</h1>
+    <h2>About Me</h2>
+        <p><a href="https://twitter.com/HASH1da1">Twitter</a></p>
+        <p><a href="https://hash1da1.hatenablog.com/">Blog</a></p>
+        <p><a href="https://github.com/HASH1da1">GitHub</a></p>
+    <h2>Product</h2>
+        <h3>Web Extensions</h3>
+        <p><a href="https://github.com/HASH1da1/Gotanda">Gotanda</a> is OSINT search helping tool</p>
+        <p><a href="https://github.com/HASH1da1/Icollet">Icollet</a> is Crypt Currency Search tool</p>
+        <p><a href="https://github.com/HASH1da1/Werchive">Werchive</a> is Web page archiving helper</p>
+        <p><a href="https://github.com/HASH1da1/hasher">Hasher</a> is Malware hash search tool</p>
+        <h3>Hyper themes</h3>
+        <p><a href="https://github.com/HASH1da1/Hyper-Sukoya">Hyper-Sukoya</a> is Kana-Sukoya(from Nijisanji Group) Hyper theme</p>
+        <p><a href="https://github.com/HASH1da1/Hyper-Fuyuki">Hyper-Fuyuki</a> is Fuyuki-Hakase(from Nijisanji Group) Hyper theme</p>
 </body>
-
 </html>

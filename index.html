@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway">
-    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
     <title>HASH1da1</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script type="text/javascript" src="js/handler.js"></script>
 </head>
-
 <body>
-    <header class="header">
-        <p class="site-title-sub">My name is </p>
-        <h1 class="site-title">HASH1da1</h1>
-        <div class="buttons">
-            <a class="button" href="#about">About me</a>
-            <a class="button" href="#social">Social</a>
-            <a class="button" href="#product">Product</a>
-            <a class="button" href="#skills">Skill</a>
+    <header class="header">HASH1da1</header>
+        <img class="profile-icon" src="/images/profile.jpg">
+        <p class="intro">HASH1da1</p><br>
+        <p class="intro-message"></p><br>
+    <h2 class="about-wrap">About Me</h2>
+        <div class="about-wrapping">
+        <a href="https://twitter.com/HASH1da1"><img class="link-icon" src="/images/twitter.svg" alt="Twitter"></a>
+        <a href="https://hash1da1.hatenablog.com/"><img class="link-icon" src="/images/blog.svg" alt="blog"></a>
+        <a href="https://github.com/HASH1da1"><img class="link-icon" src="images/github.svg" alt="GitHub"></a>
         </div>
+
     </header>
     <section class="about" id="about">
         <h2 class="heading">About me</h2>
         <img class="icon" src="./images/profile.png">
         <p class="about-text">
-            HASH1da1です。[はしだい]と読みます。<br>
-            2019年8月からCSIRTの人になりました。<br>
-            ユーザー企業におけるセキュリティのベストエフォートを考えています。<br>
+            はしだいです。<br>
+            2019年8月からユーザー企業CSIRTの人になりました。<br>
+            短大卒業後、地元事務機販売企業で営業→都内SIerでフォレンジックサービス提供→ユーザー企業CSIRT<br>
+            という経歴です。<br>
         </p>
         <p class="about-text">
             ThinkPadが好きです。<br>
             他にはお酒、自作PC、ギターが好きです。<br>
             よく飲みすぎて吐くので、リバースエンジニアリングしてます（違う）<br>
             <br>
-            最近CTFに興味が出てきたのでハリネズミ本買いました。<br>
-            picoCTFあたりの比較的易しいものからやっていきをしていきたい。<br>
         </p>
     </section>
 
@@ -121,8 +118,7 @@
         <h2 class="heading">Product</h2>
         <div class="product-wrapper">
             <div class="product-box">
-                <a href="https://addons.mozilla.org/ja/firefox/addon/gotanda/" target="_blank"
-                    rel="noopener noreferrer">
+                <a href="https://addons.mozilla.org/ja/firefox/addon/gotanda/" target="_blank" rel="noopener noreferrer">
                     <img class="product-image" src="images/gotanda.svg" alt="product1">
                 </a>
                 <p class="product-text">
@@ -134,16 +130,15 @@
                 </p>
             </div>
             <div class="product-box">
-                    <a href="https://addons.mozilla.org/ja/firefox/addon/icollet/" target="_blank"
-                        rel="noopener noreferrer">
-                        <img class="product-image" src="images/icollet.svg" alt="product2">
+                <a href="https://addons.mozilla.org/ja/firefox/addon/icollet/" target="_blank" rel="noopener noreferrer">
+                    <img class="product-image" src="images/icollet.svg" alt="product2">
                     </a>
-                    <p class="product-text">
-                        IcolletというFirefox向けのアドオンです。<br>
-                        画像クリックでプロダクトページに飛びます。<br>
-                        仮想通貨のウォレットアドレスとトランザクションハッシュを<br>
-                        右クリックすると、検索エンジンに投げれます。<br>
-                    </p>
+                <p class="product-text">
+                    IcolletというFirefox向けのアドオンです。<br>
+                    画像クリックでプロダクトページに飛びます。<br>
+                    仮想通貨のウォレットアドレスとトランザクションハッシュを<br>
+                    右クリックすると、検索エンジンに投げれます。<br>
+                </p>
                 </div>
             <div class="product-box">
                 <a href="https://addons.mozilla.org/ja/firefox/addon/h4sh3r/" target="_blank" rel="noopener noreferre">
@@ -157,69 +152,15 @@
             </div>
         </div>
     </section>
-
-    <section class="skills" id="skills">
-        <h2 class="heading">Skills</h2>
-        <div class="skills-wrapper">
-            <div class="skill-box">
-                <div class="skill-title">Security</div>
-                <p class="skill-text">
-                    <p1>・Forensic<br></p1>
-                    <p2>
-                        -Disk forensic<br>
-                        -Memory Forensic<br>
-                        -Network Forensic<br>
-                    </p2>
-                    <br>
-                    <p1>・Other<br></p1>
-                    <p2>
-                        -Vulnerability watch<br>
-                        -Log analysis<br>
-                        -Offensive Security<br>
-                        -OSINT(hobby)<br>
-                    </p2>
-                </p>
-            </div>
-            <div class="skill-box">
-                <div class="skill-title">Hardware, OS</div>
-                <p class="skill-text">
-                    <p1>・Hardware<br></p1>
-                    <p2>
-                        -PC Building<br>
-                        -PC modified<br>
-                    </p2>
-                    <br>
-                    <p1>・OS<br></p1>
-                    <p2>
-                        -Windows<br>
-                        -mac os X<br>
-                        -Debian Distro(Lubuntu)<br>
-                    </p2>
-                </p>
-            </div>
-            <div class="skill-box">
-                <div class="skill-title">Study, Books</div>
-                <p class="skill-text">
-                    <p1>・Study<br></p1>
-                    <p2>
-                        -Web Frontend<br>
-                        -Web Backend<br>
-                        -OSINT<br>
-                    </p2>
-                    <br>
-                </p>
-            </div>
-        </div>
-    </section>
     <section class="comment">
         <p3>Please hiring me!<br>
-            Contact to me If you ineterested!<br></p3>
+            Contact me If you ineterested!<br></p3>
 
 
     </section>
     <footer class="footer">
         Copyright @HASH1da1
     </footer>
-</body>
 
+</body>
 </html>
